@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="quiz.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+            <div class="col-md-4">
+              <ul class="navbar-nav ">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Our Story</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Stress Quiz</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-4">
+              <span>
+                <a class="nav-link" href="index.html">
+                  <img src="logo.png" alt="logo" height="100px" />
+                </a>
+              </span>
+            </div>
+
+            <div class="col-md-4">
+              <ul class="navbar-nav right-list">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa fa-shopping-cart"></i> Cart</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sign In</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 no-padding">
+          <div>
+            <div id="quiz-container">
+              <div class="row question-number" id="circle">
+                <!-- <div class="col-md-2">
+                  <div class="circle">1</div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="circle">2</div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="circle">3</div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="circle">4</div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="circle">5</div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="circle">6</div>
+                </div> -->
+              </div>
+
+              <div id="quiz"></div>
+            </div>
+
+            <div id="calculating-container" class="col-md-12 align-self-center">
+              <p class="card-title">
+                <img class="loading spin" src="clover.png" />Calculating...
+              </p>
+            </div>
+
+            <div id="summary-container">
+              <div class="card-group">
+                <div class="card product-for-you-text">
+                  <div class="card-body">
+                    <p class="diagnosis">
+                      You are experiencing Anxiety
+                    </p>
+                    <p class="suggestion">
+                      Though you’re often able to manage stressful experiences,
+                      sometimes you may find it hard to relax. This can make you
+                      irritable, emotional, and in some situations, it can make
+                      you feel anxious. Occasionally, you may notice that you
+                      feel physical symptoms of this anxiety—heavy breathing, a
+                      pounding heart, or sweatiness in your palms. However, even
+                      a little stress and anxiety can have negative effects on
+                      the mind and body. Based on your answer, we have  some
+                      suggestions for countering stress and anxiety.
+                    </p>
+                  </div>
+                </div>
+                <div class="card product-for-you-image">
+                  <div class="card-image">
+                    <img
+                      id="product-image"
+                      src="NuocHoaKhoDaXuanTra.png"
+                      alt="Card image cap"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">
+                      Daily bi-phase peel rejuvenates and nourishes.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">$65.00 | 1.7 FL. OZ.​</small>
+                    </p>
+                    <h5 class="card-title product-for-you-title">
+                      PRODUCTS FOR YOU
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row answer-block">
+              <div class="col-md-3">
+                <button class="answer-button" id="never">
+                  Never
+                </button>
+              </div>
+              <div class="col-md-3">
+                <button class="answer-button" id="rarely">Rarely</button>
+              </div>
+              <div class="col-md-3">
+                <button class="answer-button" id="often">Often</button>
+              </div>
+              <div class="col-md-3">
+                <button class="answer-button" id="very">Very</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
