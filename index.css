@@ -248,7 +248,7 @@ button {
 }
 
 .how-to-use {
-  background-image: url("MistletoeWallpapers.jpg");
+  background-image: url("blog.png");
   height: 35rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -470,7 +470,7 @@ iframe[seamless] {
 .carousel-caption {
   left: 20px;
   right: 40%;
-  background-color: rgb(168, 173, 0, 0.5);
+  background-color: rgba(168, 173, 0, 0.5);
   border-radius: 15px;
 }
 .c-top {
