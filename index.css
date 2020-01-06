@@ -205,6 +205,11 @@ button {
   margin-top: 1rem;
 }
 
+.mb1 {
+  margin-bottom: 1rem;
+}
+
+
 .new-card-text {
   margin-top: 10rem;
 }
@@ -476,4 +481,8 @@ iframe[seamless] {
 .c-bot {
   right: 20px;
   left: 40%;
+}
+
+.pink {
+  color: blueviolet;
 }
